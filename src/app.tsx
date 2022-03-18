@@ -1,9 +1,10 @@
 import React, {FC} from 'react';
+import UserList from './components/user-list';
 
 const App: FC = () => {
     return (
         <div>
-          123
+          <UserList />
         </div>
     );
 };
